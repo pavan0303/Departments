@@ -1,0 +1,110 @@
+{% extends "../base.html" %}
+{% block content %}
+
+
+
+
+
+<section class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4"> ABOUT MBA</h1>
+        <p class="lead">Empowering students for a brighter future.</p>
+        <a href="#programs" class="btn btn-light btn-lg mt-3">Explore Programs</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">About Us</h2>
+        <p class="text-muted">
+            Our college has been shaping the minds of future leaders for over 50 years. With world-class faculty, cutting-edge facilities, and a commitment to academic excellence, we provide an environment where students can thrive.
+        </p>
+    </div>
+</section>
+
+<!-- Programs Section -->
+<section id="programs" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Programs</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Program 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Undergraduate Programs</h5>
+                        <p class="card-text">Explore a variety of undergraduate courses designed to build strong foundational skills.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Program 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Graduate Programs</h5>
+                        <p class="card-text">Pursue advanced degrees and research opportunities in cutting-edge fields.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Program 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Online Courses</h5>
+                        <p class="card-text">Flexible online courses for students looking to balance learning with other commitments.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">What Our Students Say</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"The faculty here is amazing. I have grown so much during my time at this college."</p>
+                    <footer class="blockquote-footer">Student Name</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="blockquote">
+                    <p>"The programs are challenging yet rewarding. I feel ready to take on the world!"</p>
+                    <footer class="blockquote-footer">Another Student</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+{% endblock %}

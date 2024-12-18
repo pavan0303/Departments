@@ -1,0 +1,69 @@
+{% extends "../index.html" %}
+
+{% block content %}
+<head>
+    <style>
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .img-fluid {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .row {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Discover Hyderabad</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="Hyderabad Image">
+        </div>
+        <div class="col-md-6">
+            <h2>About Hyderabad</h2>
+            <p>Hyderabad, the capital of Telangana, is known as the "City of Pearls" and a melting pot of history and modernity. Renowned for its iconic landmarks, delicious cuisine, and rich cultural heritage, Hyderabad offers a unique travel experience.</p>
+            <h3>Top Attractions</h3>
+            <ul>
+                <li>Charminar</li>
+                <li>Golconda Fort</li>
+                <li>Hussain Sagar Lake</li>
+                <li>Ramoji Film City</li>
+                <li>Chowmahalla Palace</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h3>Best Time to Visit</h3>
+        <p>The ideal time to visit Hyderabad is from November to February when the weather is pleasant, making it perfect for exploring the city's attractions.</p>
+    </div>
+</div>
+{% endblock %}

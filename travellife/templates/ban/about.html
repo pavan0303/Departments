@@ -1,0 +1,69 @@
+{% extends "../index.html" %}
+
+{% block content %}
+<head>
+    <style>
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .img-fluid {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .row {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Explore Bangalore</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="Bangalore Image">
+        </div>
+        <div class="col-md-6">
+            <h2>About Bangalore</h2>
+            <p>Bangalore, also known as Bengaluru, is the capital of Karnataka and a major hub for technology in India. Famous for its pleasant weather, vibrant culture, and lush greenery, Bangalore is a perfect blend of modernity and tradition.</p>
+            <h3>Top Attractions</h3>
+            <ul>
+                <li>Lalbagh Botanical Garden</li>
+                <li>Bangalore Palace</li>
+                <li>ISKCON Temple</li>
+                <li>Cubbon Park</li>
+                <li>Commercial Street (Shopping)</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h3>Best Time to Visit</h3>
+        <p>The best time to visit Bangalore is from October to February when the weather is cool and pleasant, making it ideal for sightseeing and outdoor activities.</p>
+    </div>
+</div>
+{% endblock %}
